@@ -2,7 +2,7 @@
 # Command INFO
 ##############################################################################
 
-man <command>           		    # shows the manual for specified command [press q to exit]
+man <command>                      # shows the manual for specified command [press q to exit]
 
 
 ##############################################################################
