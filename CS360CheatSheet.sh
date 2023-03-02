@@ -26,13 +26,13 @@ example.txt                        # Relative path [means in the current working
 ##############################################################################
 
 mkdir <dirname>                    # Makes a new directory
-mv <dir1> <dir2>              		 # Rename a directory from <dir1> to <dir2>
-cd                            		 # Changes to home
-cd ..                         		 # Changes to the parent directory
-cd <dirname>                  		 # Changes directory
-cp -r <dir1> <dir2>           		 # Copy <dir1> into <dir2> including sub-directories
+mv <dir1> <dir2>                   # Rename a directory from <dir1> to <dir2>
+cd                                 # Changes to home
+cd ..                              # Changes to the parent directory
+cd <dirname>                       # Changes directory
+cp -r <dir1> <dir2>                # Copy <dir1> into <dir2> including sub-directories
 pwd                                # Tells you where you currently are
-cd ~                          		 # Changes to home.
+cd ~                               # Changes to home.
 cd -                               # Changes to previous working directory
 
 
