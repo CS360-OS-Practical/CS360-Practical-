@@ -1,5 +1,6 @@
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 > cheat sheet for CS360 Practical
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]
+
 
 ##  Table of Contents
 #### Command line interface [ubntu]
