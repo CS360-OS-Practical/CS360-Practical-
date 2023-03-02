@@ -46,9 +46,9 @@ echo [message] > filename	 # Redirect the message from the screen to a filename.
 cat <filename>               	   # Displays file raw content (will not be interpreted).
 cat  > <filename>                  # Let you write your input and then redirect it to the file.
 cat  >> <filename>                 # Let you edit a file, add more content to the file
-cat filename1 >> filename2   	   # Merge; append two files texts together [content of filenmae1 will be added to the bottom of filename2]
-mv <filename1> <dest>        	   # Moves a file to destination, behavior will change based on 'dest' type (dir: file is placed into dir; file: file will replace dest (tip: useful for renaming))
-cp <filename1> <dest>        	   # Copies a file
+cat filename1 >> filename2         # Merge; append two files texts together [content of filenmae1 will be added to the bottom of filename2]
+mv <filename1> <dest>              # Moves a file to destination, behavior will change based on 'dest' type (dir: file is placed into dir; file: file will replace dest (tip: useful for renaming))
+cp <filename1> <dest>              # Copies a file
 rm <filename>                	   # Removes a file
 rm -d <dirname>                	   # Removes an empty directory
 rm -r <dirname>                	   # Removes  non-empty directory
