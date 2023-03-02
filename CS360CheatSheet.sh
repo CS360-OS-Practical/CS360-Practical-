@@ -31,7 +31,7 @@ cd                            		 # Changes to home
 cd ..                         		 # Changes to the parent directory
 cd <dirname>                  		 # Changes directory
 cp -r <dir1> <dir2>           		 # Copy <dir1> into <dir2> including sub-directories
-pwd                         		   # Tells you where you currently are
+pwd                         		 # Tells you where you currently are
 cd ~                          		 # Changes to home.
 cd -                         		   # Changes to previous working directory
 
