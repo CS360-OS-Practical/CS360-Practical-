@@ -22,7 +22,7 @@ example.txt				                 # Relative path [means in the current working di
 
 
 ##############################################################################
-# DIRECTORY COMMANDS
+#DIRECTORY COMMANDS
 ##############################################################################
 
 mkdir <dirname>               		 # Makes a new directory
