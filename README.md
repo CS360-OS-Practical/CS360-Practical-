@@ -6,7 +6,7 @@
 
 ##  Table of Contents
 #### Command line interface [ubntu]
--CS360CheatSheet.sh
+- [CS360CheatSheet.sh](https://github.com/CS360-OS-Practical/CS360-Practical-/blob/1048b05cc0a23599b1e2447eca4475cf176a163e/CS360CheatSheet.sh). 
 
 ## 🙌🏼 How to Contribute?
 اذا تريد المساهمه; اسحب و ارسل و سوف يتم الدمج بعد المراجعه 💗  
