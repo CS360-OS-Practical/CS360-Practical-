@@ -42,7 +42,7 @@ cd -                         		   # Changes to previous working directory
 
 ls                          	   # Lists your files in current directory, ls <dir> to print files in a specific directory
 ls -l                       	   # Lists your files in 'long format', which contains the exact size of the file, who owns the file and who has the right to look at it, and when it was last modified
-echo [message] > filename	  	   # Redirect the message from the screen to a filename. 
+echo [message] > filename	  	  # Redirect the message from the screen to a filename. 
 cat <filename>               	   # Displays file raw content (will not be interpreted)
 cat  > <filename>                  # Let you write your input and then redirect it to the file
 cat  >> <filename>                 # Let you edit a file, add more content to the file
