@@ -11,29 +11,29 @@ man <command>           		    # shows the manual for specified command [press q 
 
 # Path describes the location from the root directory.
 
-/home/username/example.txt	    	 # Absolute path example
-~/example.txt				               # Absolute path but using home/user shorthand  [~]
+/home/username/example.txt         # Absolute path example
+~/example.txt                      # Absolute path but using home/user shorthand  [~]
 
 
 # Relative path describes the location of a file relative to the current (working) directory
 
-example.txt				                 # Relative path [means in the current working directory theres example.txt]
-../example.txt				             # Relative path but using parent shorthand [means the parent of the current directory have example.txt]
+example.txt                        # Relative path [means in the current working directory theres example.txt]
+../example.txt                     # Relative path but using parent shorthand [means the parent of the current directory have example.txt]
 
 
 ##############################################################################
 #DIRECTORY COMMANDS
 ##############################################################################
 
-mkdir <dirname>               		 # Makes a new directory
+mkdir <dirname>                    # Makes a new directory
 mv <dir1> <dir2>              		 # Rename a directory from <dir1> to <dir2>
 cd                            		 # Changes to home
 cd ..                         		 # Changes to the parent directory
 cd <dirname>                  		 # Changes directory
 cp -r <dir1> <dir2>           		 # Copy <dir1> into <dir2> including sub-directories
-pwd                         		 # Tells you where you currently are
+pwd                                # Tells you where you currently are
 cd ~                          		 # Changes to home.
-cd -                         		 # Changes to previous working directory
+cd -                               # Changes to previous working directory
 
 
 ##############################################################################
@@ -78,10 +78,10 @@ grep -i <pattern> <filenames>      # looks for the string in the files but ignor
 # INPUT/OUTPUT REDIRECTORS
 ##############################################################################
 
-cmd1|cmd2 				                 # pipe; takes standard output of cmd1 as standard input to cmd2
-< file     			                 	 # takes standard input from file
-> file     				                 # directs standard output to file
->> file    				                 # directs standard output to file; append to file if it already exists
+cmd1|cmd2                          # pipe; takes standard output of cmd1 as standard input to cmd2
+< file                             # takes standard input from file
+> file                             # directs standard output to file
+>> file                            # directs standard output to file; append to file if it already exists
 
 
 ##############################################################################
