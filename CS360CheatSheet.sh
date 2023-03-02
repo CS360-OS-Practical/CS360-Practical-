@@ -40,20 +40,20 @@ cd -                         		   # Changes to previous working directory
 # FILE COMMANDS
 ##############################################################################
 
-ls                          	   # Lists your files in current directory, ls <dir> to print files in a specific directory
-ls -l                       	   # Lists your files in 'long format', which contains the exact size of the file, who owns the file and who has the right to look at it, and when it was last modified
-echo [message] > filename	  	  # Redirect the message from the screen to a filename. 
-cat <filename>               	   # Displays file raw content (will not be interpreted)
-cat  > <filename>                  # Let you write your input and then redirect it to the file
+ls                          	     # Lists your files in current directory, ls <dir> to print files in a specific directory.
+ls -l                       	     # Lists your files in 'long format', which contains the exact size of the file, who owns the file and who has the right to look at it, and when it was last modified.
+echo [message] > filename	  	     # Redirect the message from the screen to a filename. 
+cat <filename>               	     # Displays file raw content (will not be interpreted).
+cat  > <filename>                  # Let you write your input and then redirect it to the file.
 cat  >> <filename>                 # Let you edit a file, add more content to the file
-cat filename1 >> filename2   	   # Merge; append two files texts together [content of filenmae1 will be added to the bottom of filename2]
-mv <filename1> <dest>        	   # Moves a file to destination, behavior will change based on 'dest' type (dir: file is placed into dir; file: file will replace dest (tip: useful for renaming))
-cp <filename1> <dest>        	   # Copies a file
-rm <filename>                	   # Removes a file
+cat filename1 >> filename2   	     # Merge; append two files texts together [content of filenmae1 will be added to the bottom of filename2]
+mv <filename1> <dest>        	     # Moves a file to destination, behavior will change based on 'dest' type (dir: file is placed into dir; file: file will replace dest (tip: useful for renaming))
+cp <filename1> <dest>        	     # Copies a file
+rm <filename>                	     # Removes a file
 rm -d <dirname>                	   # Removes an empty directory
 rm -r <dirname>                	   # Removes  non-empty directory
-cat filename.txt | more 		   # Takes the file contoent and use it as input to more which let you see the output as pages
-less filename				       # Let you see the output as pages
+cat filename.txt | more 		       # Takes the file contoent and use it as input to more which let you see the output as pages
+less filename				               # Let you see the output as pages
 head filename                      # Print the first ten lines
 head -3 filename                   # Print the first 3 lines
 tail filename                      # Print the last ten lines
