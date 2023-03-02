@@ -2,7 +2,6 @@
 # Command INFO
 ##############################################################################
 
-
 man <command>           		    # shows the manual for specified command [press q to exit]
 
 
@@ -10,12 +9,10 @@ man <command>           		    # shows the manual for specified command [press q 
 # Command INFO
 ##############################################################################
 
-
 # Path describes the location from the root directory.
 
 /home/username/example.txt	    	# Absolute path example
 ~/example.txt				        # Absolute path but using home/user shorthand  [~]
-
 
 
 # Relative path describes the location of a file relative to the current (working) directory
@@ -27,7 +24,6 @@ example.txt				             # Relative path [means in the current working direct
 ##############################################################################
 # DIRECTORY COMMANDS
 ##############################################################################
-
 
 mkdir <dirname>               		 # Makes a new directory
 mv <dir1> <dir2>              		 # Rename a directory from <dir1> to <dir2>
@@ -43,7 +39,6 @@ cd -                         		 # Changes to previous working directory
 ##############################################################################
 # FILE COMMANDS
 ##############################################################################
-
 
 ls                          		 # Lists your files in current directory, ls <dir> to print files in a specific directory
 ls -l                       		 # Lists your files in 'long format', which contains the exact size of the file, who owns the file and who has the right to look at it, and when it was last modified
@@ -83,7 +78,6 @@ grep -i <pattern> <filenames>        # looks for the string in the files but ign
 # INPUT/OUTPUT REDIRECTORS
 ##############################################################################
 
-
 cmd1|cmd2 				            # pipe; takes standard output of cmd1 as standard input to cmd2
 < file     			            	# takes standard input from file
 > file     				            # directs standard output to file
@@ -93,7 +87,6 @@ cmd1|cmd2 				            # pipe; takes standard output of cmd1 as standard inpu
 ##############################################################################
 # Wild cards
 ##############################################################################
-
 
 *.txt                               # all the files that end with txt
 a*.txt                              # all the files that start with a and end with txt
