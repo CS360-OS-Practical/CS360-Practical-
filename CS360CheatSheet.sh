@@ -30,7 +30,8 @@ mv <dir1> <dir2>                   # Rename a directory from <dir1> to <dir2>
 cd                                 # Changes to home
 cd ..                              # Changes to the parent directory
 cd <dirname>                       # Changes directory
-cp -r <dir1> <dir2>                # Copy <dir1> into <dir2> including sub-directories
+rm -d <dirname>                	   # Removes an empty directory
+rm -r <dirname>                	   # Removes  non-empty directory
 pwd                                # Tells you where you currently are
 cd ~                               # Changes to home.
 cd -                               # Changes to previous working directory
@@ -50,8 +51,6 @@ cat filename1 >> filename2         # Merge; append two files texts together [con
 mv <filename1> <dest>              # Moves a file to destination, behavior will change based on 'dest' type (dir: file is placed into dir; file: file will replace dest (tip: useful for renaming))
 cp <filename1> <dest>              # Copies a file
 rm <filename>                      # Removes a file
-rm -d <dirname>                	   # Removes an empty directory
-rm -r <dirname>                	   # Removes  non-empty directory
 cat filename.txt | more            # Takes the file contoent and use it as input to more which let you see the output as pages
 less filename                      # Let you see the output as pages
 head filename                      # Print the first ten lines
