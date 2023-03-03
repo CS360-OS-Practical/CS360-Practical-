@@ -6,7 +6,7 @@ man <command>                      # shows the manual for specified command [pre
 
 
 ##############################################################################
-# Command INFO
+#  Absolute path &  Relative path
 ##############################################################################
 
 # Path describes the location from the root directory.
