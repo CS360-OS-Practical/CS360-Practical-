@@ -56,7 +56,7 @@ less filename                      # Let you see the output as pages
 head filename                      # Print the first ten lines
 head -3 filename                   # Print the first 3 lines
 tail filename                      # Print the last ten lines
-taile -3 filename                  # Print the last 3 lines
+tail -3 filename                  # Print the last 3 lines
 wc filename                        # Print [numberOfLines, numberOfWords, numberOfBytes = char]
 wc [-l, -w, -c, -m, -L]            # Print [-m = numberOfChar, -L = length of longest line]
 sort < filename                    # Print input comes from file
