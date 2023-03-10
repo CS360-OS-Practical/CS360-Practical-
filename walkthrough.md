@@ -355,5 +355,6 @@ c) list all files that start with test then only one character
 ls -l test?.txt
 check the cheatsheet for more info on [?] wild card
 ```
-
-
+ Lab 5
+=================
+[![file-permissions.png](https://i.postimg.cc/zBVWfQtq/file-permissions.png)](https://postimg.cc/gXbrSgb7)
