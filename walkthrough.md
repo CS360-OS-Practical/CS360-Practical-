@@ -357,4 +357,72 @@ check the cheatsheet for more info on [?] wild card
 ```
  Lab 5
 =================
+### 1-histroy and nano
+a) go to ITEfolder1 and use [ls] to check whether it contain test1.txt, test1_sort.txt, test2.txt or no
+```sh
+cd ITEfolder1
+ls -l
+```
+b) save all commands you have used so far using histroy
+```
+histroy >> myLog.txt
+```
+c) copy myLog.txt to ITEfolder2 and check using ls 
+```sh
+cp myLog.txt ~/Lab5/ITEfolder2
+ls ~/Lab5/ITEfolder2
+```
+d) using cat check the content of myLog.txt
+```sh
+cat myLog.txt
+```
+e) use nano to delete line number 6 and 7, use where is[ctrl+w] and find the word "nano" save and get out of nano
+```sh
+nano myLog.txt
+ctrl+w to find
+ctrl +x to save and exit
+```
+### 2-access right
+a) read the lab and check the image below 
+
 [![file-permissions.png](https://i.postimg.cc/zBVWfQtq/file-permissions.png)](https://postimg.cc/gXbrSgb7)
+
+
+b) change the acess right
+symbol | Description
+----------- | ------------
+u | user.
+g | group.
+o | other.
+a | all. 
+r | read.
+w | write,delete.
+x | execute (or access directrory).
+[+] | grant permission.
+[-] | remove permission.
+
+c) using chmod give read and write permission to all users 
+```sh
+chmod a+rw myLog.txt
+```
+d) using shorthand permission give read only to group and other and full permission to owner
+```shs
+chomd 744 myLog.txt
+```
+e) using shorthand permission give the owner full permission, and give other and group read and execute
+```sh
+chmod 755 myLog.txt
+```
+f) using shorthand permission give full permission to all users
+```sh
+chmod 777 myLog.txt
+```
+
+### 3-special output [grep]
+a)make 3 new files with random text named as [myfile.txt, myfile1.txt, myfile2.txt]
+```sh
+echo this file contains some text for learning how to use the command grep > myfile.txt
+echo this file contains some text. > myfile1.txt
+echo this text file explain how to use grep command > myfile.txt
+```
+b) find which files contain the word "file" using grep 
