@@ -423,6 +423,38 @@ a)make 3 new files with random text named as [myfile.txt, myfile1.txt, myfile2.t
 ```sh
 echo this file contains some text for learning how to use the command grep > myfile.txt
 echo this file contains some text. > myfile1.txt
-echo this text file explain how to use grep command > myfile.txt
+echo this text file explain how to use grep command > myfile2.txt
 ```
 b) find which files contain the word "file" using grep 
+```sh 
+grep file *
+```
+c) find  which file contain the word "doc" using grep
+```sh
+grep doc *.txt
+```
+d) use grep to find which files contain "some text"
+```sh
+grep "some text" *
+```
+e) use grep to find which files with .txt extension contain "the"
+```sh
+grep the *.txt
+```
+f)use grep to find the "th", ignore case.
+```sh
+grep -i th *.txt
+```
+g) use pipe and grep to list all files that conatain "file" in their name
+```sh
+ls | grep file
+```
+h) find all files that start with character m and end with .txt
+```sh
+ls | grep "m*.txt"
+or
+ls | grep "^m"
+or 
+ls | grep "^m.*.txt$"
+```
+# done
