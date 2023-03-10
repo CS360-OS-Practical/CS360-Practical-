@@ -9,6 +9,7 @@
 #### Command line interface [ubntu]
 - [CS360CheatSheet.sh](https://github.com/CS360-OS-Practical/CS360-Practical-/blob/1048b05cc0a23599b1e2447eca4475cf176a163e/CS360CheatSheet.sh) 
 #### lab walkthrough 
-- [lab 2, 3, 4 and 5] (https://github.com/CS360-OS-Practical/CS360-Practical-/blob/35b4bc410d6147c0b0a4bd1d102b0c391b1def8a/walkthrough.md)
+- [Lab 2, 3, 4 and 5](https://github.com/CS360-OS-Practical/CS360-Practical-/blob/35b4bc410d6147c0b0a4bd1d102b0c391b1def8a/walkthrough.md) 
+
 ## 🙌🏼 How to Contribute?
 اذا تريد المساهمه; اسحب و ارسل و سوف يتم الدمج بعد المراجعه 💗  
