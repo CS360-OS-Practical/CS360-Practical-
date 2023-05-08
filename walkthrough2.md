@@ -59,4 +59,18 @@ done
 echo "Sum Of The Next 20 Odd Numbers Is: $sum"
 ```
 
-ذ
+3-Write a bash script that reads an integer number from the user between a range from 1
+to 9999 and keeps continue asking for an integer until the user enters the correct
+number.
+```sh
+#!/bin/bash
+
+number=0
+until [ $number -le 9999 ] && [ $number -ge 1 ]
+do
+  echo "Please enter A number between 1-9999 "
+  read -p 'enter an int: ' number
+done
+
+echo "Number Entered by The User: $number"
+```
